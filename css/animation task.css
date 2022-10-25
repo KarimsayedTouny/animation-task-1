@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.background {
+    background-image: url(../images/background1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    
+}
+.d1{
+    width: 100px;
+    height: 45px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.fra1{
+    border: none;
+    animation-name: dd1;
+    animation-duration: 12s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease;
+    animation-fill-mode: forwards;
+}
+@keyframes dd1{
+    0%    {width: 100px;}
+    100%  {width: 2670px;} 
+}
+.d2{
+    width: 100px;
+    height: 65px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+.fra2{
+    border: none;
+    animation-name: dd2;
+    animation-duration: 15s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes dd2{
+    0%    {width: 100px;}
+    100%  {width: 2670px;} 
+}
+.d3{
+    width: 100px;
+    height: 65px;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
+.fra3{
+    border: none;
+    animation-name: dd3;
+    animation-duration: 11s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes dd3{
+    0%    {width: 100px;}
+    100%  {width: 2670px;} 
+}
+.d4{
+    width: 100px;
+    height: 65px;
+    position: absolute;
+    top: 350px;
+    left: 50px;
+}
+.fra4{
+    border: none;
+    animation-name: dd4;
+    animation-duration: 12s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes dd4{
+    0%    {width: 100px;}
+    100%  {width: 2670px;} 
+}
+.d5{
+    width: 100px;
+    height: 65px;
+    position: absolute;
+    top: 450px;
+    left: 50px;
+}
+.fra5{
+    border: none;
+    animation-name: dd5;
+    animation-duration: 13s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes dd5{
+    0%    {width: 100px;}
+    100%  {width: 2670px;} 
+}
+.d6{
+    width: 100px;
+    height: 65px;
+    position: absolute;
+    top: 550px;
+    left: 50px;
+}
+.fra6{
+    border: none;
+    animation-name: dd6;
+    animation-duration: 11s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes dd6{
+    0%    {width: 100px;}
+    100%  {width: 2670px;} 
+}
